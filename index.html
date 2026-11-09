@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohid Waqar | Web Developer</title>
+    <meta name="description" content="Portfolio of Mohid Waqar, a web developer building modern, responsive and interactive websites with HTML, CSS and JavaScript.">
+    <meta name="author" content="Mohid Waqar">
+    <meta property="og:title" content="Mohid Waqar | Web Developer">
+    <meta property="og:description" content="Modern, responsive and interactive websites built with HTML, CSS and JavaScript.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#2563EB">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar" id="navbar">
+      <nav class="container nav-inner" aria-label="Main navigation">
+
+        <a href="#home" class="logo">Mohid<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- HOME -->
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h1>Hi, I'm Mohid Waqar.</h1>
+
+          <p class="hero-role">Web Developer | Creative Problem Solver</p>
+
+          <p class="hero-text">
+            I build modern, responsive and interactive websites using HTML, CSS and JavaScript.
+          </p>
+
+          <div class="hero-buttons">
+            <button class="btn btn-primary" data-scroll="#projects">
+              View My Projects
+            </button>
+
+            <button class="btn btn-outline" data-scroll="#contact">
+              Contact Me
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container">
+
+          <h2>About Me</h2>
+
+          <div class="about-grid">
+
+            <div class="about-text">
+              <p>
+                Hello! I'm Mohid Waqar, a passionate web developer interested in creating websites and interactive web experiences. I enjoy learning new technologies, solving problems and turning ideas into functional projects.
+              </p>
+
+              <p>
+                I currently work with HTML, CSS and JavaScript. My goal is to become a professional frontend developer.
+              </p>
+            </div>
+
+            <dl class="info-box">
+
+              <div>
+                <dt>Name</dt>
+                <dd>Mohid Waqar</dd>
+              </div>
+
+              <div>
+                <dt>Role</dt>
+                <dd>Web Developer</dd>
+              </div>
+
+              <div>
+                <dt>Current Focus</dt>
+                <dd>Frontend Development</dd>
+              </div>
+
+            </dl>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section section-tint" id="skills">
+        <div class="container">
+
+          <h2>My Skills</h2>
+
+          <div class="skills-grid">
+
+            <article class="skill">
+              <h3>HTML</h3>
+              <p>Building website structures.</p>
+            </article>
+
+            <article class="skill">
+              <h3>CSS</h3>
+              <p>Styling and responsive layouts.</p>
+            </article>
+
+            <article class="skill">
+              <h3>JavaScript</h3>
+              <p>Interactive websites and functionality.</p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="container">
+
+          <h2>My Projects</h2>
+
+          <p class="section-note">
+            Here are some of the projects I have made until now.
+          </p>
+
+          <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+            <article class="project">
+
+              <div class="project-image">
+                <img src="Basic calculator.png" alt="Screenshot of my simple calculator project">
+              </div>
+
+              <div class="project-body">
+
+                <h3>Simple Calculator</h3>
+
+                <p>I built a simple calculator using HTML, CSS and JavaScript.</p>
+
+                <ul class="tags" aria-label="Technologies used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="https://github.com/mohidwaqarmuhammad-lang/Basic-calculator" class="placeholder-link">GitHub</a>
+                  <a href="https://basic-calculator-wine-eta.vercel.app/" class="placeholder-link">live preview</a>
+                </div>
+
+              </div>
+            </article>
+
+            <!-- PROJECT 2 -->
+            <article class="project">
+
+              <div class="project-image">
+                <img src="amazon.png" alt="Screenshot of my Amazon-style website">
+              </div>
+
+              <div class="project-body">
+
+                <h3>Amazon</h3>
+
+                <p>I made a simple Amazon-style website using HTML and CSS without JavaScript.</p>
+
+                <ul class="tags" aria-label="Technologies used">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="https://github.com/mohidwaqarmuhammad-lang/Amazon" class="placeholder-link">GitHub</a>
+                  <a href="https://amazon-gamma-steel.vercel.app/" class="placeholder-link">live preview</a>
+                </div>
+
+              </div>
+            </article>
+
+            <!-- PROJECT 3 -->
+            <article class="project">
+
+              <div class="project-image">
+                <img src="coin-rush.png" alt="Screenshot of my Coin Rush game showing the player, coins, hunters, and game interface.">
+              </div>
+
+              <div class="project-body">
+
+                <h3>Coin Rush — Chase & Collect</h3>
+
+                <p>
+                  A fun interactive browser game built using HTML, CSS,
+                  JavaScript, and Canvas. Collect 10 coins while avoiding
+                  three hunters. Features smooth animations, sound effects,
+                  a timer, and a lives system.
+                </p>
+
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Canvas</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="https://github.com/mohidwaqarmuhammad-lang/coin-rush" class="placeholder-link">GitHub</a>
+                  <a href="https://Coin-rush-puce.vercel.app/" class="placeholder-link">live preview</a>
+                </div>
+
+              </div>
+            </article>
+
+            <!-- PROJECT 4: CODINGAL CERTIFICATE -->
+            <article class="project">
+
+              <div class="project-image certificate-image">
+                <img src="certificate.png" alt="My Codingal Certificate">
+              </div>
+
+              <div class="project-body">
+
+                <h3>Codingal Certificate</h3>
+
+                <p>A certificate I earned from Codingal for my coding journey and learning.</p>
+
+                <ul class="tags">
+                  <li>Codingal</li>
+                  <li>Achievement</li>
+                  <li>Coding</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="certificate.png" target="_blank" rel="noopener noreferrer">
+                    View Certificate
+                  </a>
+                </div>
+
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section section-tint" id="contact">
+        <div class="container contact-wrap">
+
+          <h2>Get In Touch</h2>
+
+          <form id="contactForm" action="https://formspree.io/f/mgaadyod" method="POST" novalidate>
+
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" aria-describedby="nameError">
+              <p class="error" id="nameError" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" aria-describedby="emailError">
+              <p class="error" id="emailError" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" aria-describedby="messageError"></textarea>
+              <p class="error" id="messageError" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Send Message
+            </button>
+
+            <p class="form-success" id="formSuccess" role="status" hidden>
+              Thanks, your message was sent. I'll get back to you soon.
+            </p>
+
+          </form>
+
+          <p class="contact-github">
+            GitHub:
+            <a href="https://github.com/mohidwaqarmuhammad-lang" class="placeholder-link">
+              My GitHub Profile
+            </a>
+          </p>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+
+        <p>&copy; 2026 Mohid Waqar. All Rights Reserved.</p>
+
+        <p>Gmail: mohidwaqarmuhammad@gmail.com</p>
+
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="to-top" id="toTop" aria-label="Back to top">
+      &uarr;
+    </button>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  </body>
+</html>
